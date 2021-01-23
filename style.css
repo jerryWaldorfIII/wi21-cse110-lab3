@@ -1,1 +1,28 @@
-
+/* This is my User Page CSS file*/
+.list {
+	background-color: hlsa(9,100%,64%,0.5); 
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: red;
+}
+@media only screen and (max-width:600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+h1,h2,h3 { font-family: helvetica; }
+div p {
+  background-color: pink;
+}
+div > div {
+  background-color: orange;
+}
+div ~ h1 {
+  background-color: violet;
+}
+div + h2 {
+  background-color: purple;
+}
